@@ -1,4 +1,4 @@
-# Choline Gene Pathways and Compounds Analysis
+# Gene Pathways and Compounds Analysis
 
 This script utilizes the KEGG API to analyze the association between specific genes and pathways related to the compound of interest, choline. The selected genes were manually curated using Ensemble and IGV, while the compounds were chosen based on their relevance to the study.
 
