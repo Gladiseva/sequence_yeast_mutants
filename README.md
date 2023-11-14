@@ -25,30 +25,6 @@ This script utilizes the KEGG API to analyze the association between specific ge
 
     The script generates a CSV file, `choline_gene_pathways_and_compounds.csv`, containing information about the selected genes, pathways, and the presence or absence of compounds in those pathways.
 
-## Notes
-
-- **Genes of Interest:**
-  - YDL077C
-  - YDR207C
-  - YGR202C
-  - YHL020C
-  - YLL010C
-  - YOR058C
-  - YDL075W
-  - YDR039C
-  - YDR208W
-  - YEL070W
-  - YGR200C
-  - YHL017W
-  - YLL008W
-  - YOR041C
-  - YOR054C
-  - YOR043W
-  - YCR067C
-  - YDR150W
-  - YDR420W
-  - YPL188W
-
 ## Output
 
 The generated CSV file contains columns for Gene ID, Pathway ID, and binary indicators for the presence or absence of each compound of interest in the corresponding pathway.
