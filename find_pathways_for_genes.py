@@ -87,15 +87,15 @@ def get_pathways_for_gene(gene_id):
 
     return []
 
-#compounds_of_interest = ['inositol', 'choline', 'phosphatidic acid', 'diglyceride', 'triglyceride', 'cytidine diphosphate diacilglycerol',
-#                         'CDP-diacylglycerol', 'phosphatidylserine', 'phosphatidylethanolamine', 'lipid']
-compounds_of_interest = ['inositol']
+compounds_of_interest = ['inositol', 'choline', 'phosphatidic acid', 'diglyceride', 'triglyceride',
+                         'CDP-diacylglycerol', 'phosphatidylserine', 'phosphatidylethanolamine', 'lipid']
+#compounds_of_interest = ['lipid']
 gene_ids_to_check = ['YDL077C','YDR207C','YGR202C','YHL020C','YLL010C','YOR058C','YDL075W','YDR039C','YDR208W',
                         'YEL070W','YGR200C','YHL017W','YLL008W','YOR041C','YOR054C','YOR043W','YCR067C','YDR150W',
                         'YDR420W','YDR420W','YDR420W','YDR490C','YPL188W']
 
 # Open a CSV file for writing
-with open('inositol_gene_pathways_and_compounds.csv', 'w') as csvfile:
+with open('gene_pathways_and_compounds.csv', 'w') as csvfile:
     # Define the CSV writer
     csv_writer = csv.writer(csvfile)
 
